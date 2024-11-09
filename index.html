@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> My Weather Application</title>
+
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+
+  <header>
+  <form id="search-form">
+    <input type="search" id="city" placeholder="Enter a city..." required/>
+    <input type="submit"  id="search" value="Search" />
+  </form>
+  </header>
+
+  <main>
+  <div class="current-weather">
+    <div>
+    <h1 class="current-city" id="current-city">
+    Chicago
+  </h1>
+
+  
+  <p class="current-conditions">
+    <span id="current-date-time"></span>, clear
+  </br>
+    Humidity: <strong>87%</strong>, Wind. <strong>3mph</strong>
+  </p>
+  </div>
+    
+  <div class="current-temp">
+    <span class="current-temp-icon">☀️</span>
+    <span id="current-temp-value" class="current-temp-value">65</span>
+    <span class="current-temp-degree">°F</span>
+  </div>
+  </div>
+  </main>
+
+  <footer>
+    <p>
+    This project was coded by 
+    <a href="#" target="_blank"> Ashley Stewart</a> and is 
+    <a href="#" target="_blank"> on GitHub</a> and 
+    <a href="#" target="_blank">hosted on Netlify</a>
+    </p>
+  </footer>
+
+  </div>
+
+  <script src="app.js">
+  </script>
+
+</body>
+</html>
