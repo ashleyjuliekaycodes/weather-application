@@ -33,7 +33,7 @@ a {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   display: block;
   margin: 60px auto;
-  max-width: 600px;
+  max-width: 650px;
   padding: 30px;
 }
 
@@ -80,7 +80,7 @@ a {
   border-radius: 5px;
   font-size: 16px;
   padding: 20px;
-  width: 75%;
+  width: 80%;
 }
 
 #search {
